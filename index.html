@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="order-summary">
+    <figure class="order-summary__card">
+      <img class="order-summary__image" src="./images/illustration-hero.svg" alt="girl-listening-to-music">
+      <figcaption class="order-summary__text">
+        <h1 class="order-summary__title">
+          Order Summary
+        </h1>
+        <p class="order-summary_description">
+          You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+        </p>
+        <div class="order-summary__detailes">
+          <div class="order-summary__plan">
+            <img class="order-sumary__plan-image" src="./images/icon-music.svg" alt="icon-music">
+            <div class="order-summary__plan-detailes">
+              <h3 class="order-summary__plan-annual">Annual Plan</h3>
+              <p class="order-summary__plan-price">$59.99/year</p>
+            </div>
+          </div>
+          <a class="order-summary__plan-change" href="#">Change</a>
+        </div>
+        <button class="order-summary__payment">
+          <strong>Proceed to Payment</strong>
+        </button>
+        <button class="order-summary__cancel">
+          <strong>Cancel Order</strong>
+        </button>
+      </figcaption>
+    </figure>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">jeremymen</a>.
+  </div>
+</body>
+</html>
